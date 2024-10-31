@@ -1,0 +1,11 @@
+@CHARSET "UTF-8";
+
+ h2.weather { display: block; height: 60px; margin: 0; width: auto; float:left; }
+
+ h2.weather small { clear:both; margin-top: 5px; font-family: Arial, Helvetica, sans-serif; font-size: 9px; display: block; text-align: right; float:left; }
+
+ h2.weather span.partlysunny,
+ h2.weather span.partlycloudy{ display: block; float:left; width: 75px; height: 60px; background: url(img/partly-sunny.png) no-repeat center 5px; }
+
+ h2.weather p { margin: 0;float:left; }
+ h2.weather span { clear:both; float:left;  font-size: 14px; font-family: Righteous, Arial, Helvetica, sans-serif; line-height: 40px;}
